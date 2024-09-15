@@ -1,0 +1,57 @@
+body {
+    background-color: #002F6C; /* Azul escuro, semelhante ao uniforme da Mulher-Maravilha */
+    color: #FFD700; /* Dourado, como nas armaduras e acessórios da Mulher-Maravilha */
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+button {
+    background-color: #C8102E; /* Vermelho intenso, como no traje da Mulher-Maravilha */
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: "Bai Jamjuree", sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+}
+
+button:hover {
+    background-color: #F2A900; /* Dourado mais claro no hover para contraste */
+    transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+    background-color: #FFFFFF; /* Fundo branco para contraste com o texto */
+    color: #000000; /* Texto preto para melhor legibilidade */
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra mais intensa para destaque */
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+main {
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 12px;
+    border: 4px solid #FFD700; /* Borda dourada ao redor das imagens para destaque */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para realçar a imagem */
+}
